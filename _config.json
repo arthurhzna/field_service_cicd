@@ -1,0 +1,37 @@
+{
+    "port": 8002,
+    "appName": "field-service",
+    "appEnv": "local",
+    "signatureKey": "arthur",
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "name": "field-service",
+      "username": "root",
+      "password": "barca1899",
+      "maxOpenConnection": 10,
+      "maxLifetimeConnection": 10,
+      "maxIdleConnection": 10,
+      "maxIdleTime": 10
+    },
+    "rateLimiterMaxRequest": 1000,
+    "rateLimiterTimeSecond": 60,
+    "internalService": {
+      "user": {
+        "host": "http://localhost:8001",
+        "signatureKey": "arthur"
+      }
+    },
+    "gcsType": "service_account",
+    "gcsProjectID": "skilled-acolyte-472105-t1",
+    "gcsPrivateKeyID": "e9f91b8f05aec5d7a26a1ffa5cf27e1b30c55806",
+    "gcsPrivateKey": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRRFlTZ0ZqSG5CQmhOMTAKMms2aWZqMzArSGR5cWs5bHl3NGdRNHhmTFVkUDNkOFJLYkRkMUZLeDdYNUNRVjg4a0tTVXBESkd5c2pLVzhWUgp4eVkxUUtuQ0VTMGZ2YzFDbGRzUWdycFVNVjQwR05oMWNSTUhkdW05TFRkRHI2OUE1eWNUWTFOZjlVOWx2U0JJCnkyOElXbnlweFl3T2F0VDl1U2lINFlqQ3FVdXg5Zk5oYWdHcklsaDZ4Uk9vbHdnMXVZZjhEamYvMlRVM0ZsL1EKRzljZ010TzRpTXZhNDR0YnllRk1sWWcxTklTUTdTNzBvRDVURUVXTDd1M1NqVXlKM2RxNHgxTEN4TW1lekF5OQpUVW1GK3BNdkNEVFZWWHVTUVRXNWFSSlo1TUc3TEtGU09HVTRrNG1XN0F1YVVJOUxDYndjUEJsT0ljTUlScVRpCmFycmlEdW5OQWdNQkFBRUNnZ0VBUEMyM0hoZDVmMWxTN3JEUkFUZ2p6L1dUOG9UOWEyS29id1NzV1V6MVV2ejIKRkVYbnpvakZhM2tiVUo3MHV4cTVtQnZwV3pZUDBQSGd3R1NyTmxUa0JybVZ0d2V0eFRHQnpxRzQ2elVETTNhWQpQM0R6TFBnQ2g5NjlTaWxuRnlWWmczVDIzVE9aWUVMVGFUMmxDb3QydFJ2Z1lLQ0wyMzU1anZrSy9ySncrN1hpCmpMZ2RKUTlOSjVsQVJVV1JOcEtUTjA4VW91Sk15cW40MnBXNXBHQkVPMHFGZGRqYzhrdGpYQVZ4U3RTdHIyak0KU3g1Yi9STE5SSXlOY3kyQzJ4NzJLdmhqOXBBNDhWRnpaKzVZYWRWSXFMM0dUcFhOK1AzZkR1TWRCeG9UNk5FTQpJV1VBMlRYbEF4QVN4elFPOUZUTGJBMTdYanBwQWIzbGZKem55dE1GZHdLQmdRRHNJY1JmQURqZktPRVRJbHZHCkRJUFVKVlhxcitLWGk5K2hyOEE5OVFUYnFhR0tqMVNtV1FodlQ0NGg3cTY2SDVrcjRsMktTNW5POGwzdkM2a2UKTGZoRzFQWGd6eVoxQWk1MjNtTVAvNEk3YS8yNEdxT3Zla25wWDZ1YU1ocTVERWdhRGpEWDNsS3ZSUytMa0lrTQo1QktKWHpvdEpPSU5hQUU1UExIeW5uOW5ad0tCZ1FEcWZOUDg5MUpmYVdhYXk0dSsveVRZSUFCQzVVc2hVT2IyCnlBSGJGUFRqL3NhUG03dHh1WVBMNC9VYjRKVmhtSWEwZy9aL0RYN2VPQnVpTHpKdmtBLzhocU5yQzREM21jZjMKalE0ZVVJYzdTL3MvTW1mL3JVd2s2UlJFeG9mQzJtTVp3b1dibVhaREpQd2JodDF0K0RMcS9FaTVVbUZTeGVlcApwdUd1SHBWb3F3S0JnUURLUGVXVnhIZnhVbTdyMTNxbzl1RVdHMkFwNExqL09WS3hoZmp1VitQd1M2cExKWlhICjMrdWtnb3ZtcmlwQ3lYdUVKWjRlSzhBeGlrNC94a256eWtXaVRSWEdsVVdINC9WdDQrME9yN1dZTlZjYWp0NXgKRmhrbDQ4WHpERVR0QndMZUpoZFpYRmFQUFgrS1ZxRzdROEJJbmlJU3RrdFNWaWp1SC9qOUp4bFJzd0tCZ0h6awpRNXltdGc3dmVxRFQ3UGlydUpvTVlWYy8vVVlmYXdUaC9tc0x2R3Q3RlpNRHBWQ3JPSkZ1TnV6RUw0d3R5d0YyCmorR1g5SXl6WWJSK1l1U2MzSWJweHp5S2dnUmV1ZTBXQ2dFSGJ4K2NGcFBRYXlmNHkyZVZaU0JFaGFhNDNyT24Kc2JYd2hOYTZhalRYSGpVbVR5aHRldWFLQkNBc0hIbDEweG9FWEJ2RkFvR0JBTmpUYmhSUVpTaTRGNEwxUVdWQwpiTnh4cHA1bHFNQmZ6M3hFYVJYQnpWK3NCUis1K283TDlnQ0hBUndtT1d1b3NPUFBmYXhRdXRYc1BoQWk2VDRJCjR3WG52bytsRHMrc0ZJeUUrUlVkMjMwQlhUNGI4bFpQSUYzYnk5SldVN2NTTmQwV2s0cFV3ak9GTGFteDZDbysKOUtJb0doL2UyV2NsTmVxRmcyc0l0WU9FCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
+    "gcsClientEmail": "user-booking@skilled-acolyte-472105-t1.iam.gserviceaccount.com",
+    "gcsClientID": "103401846559165899253",
+    "gcsAuthURI": "https://accounts.google.com/o/oauth2/auth",
+    "gcsTokenURI": "https://oauth2.googleapis.com/token",
+    "gcsAuthProviderX509CertURL": "https://www.googleapis.com/oauth2/v1/certs",
+    "gcsClientX509CertURL": "https://www.googleapis.com/robot/v1/metadata/x509/user-booking%40skilled-acolyte-472105-t1.iam.gserviceaccount.com",
+    "gcsUniverseDomain": "googleapis.com",
+    "gcsBucketName": "field_service_test"
+  }
